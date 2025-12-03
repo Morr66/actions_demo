@@ -1,10 +1,6 @@
 import unittest
-import sys
-import os
+from src.library import Book, PrintedBook, EBook, User, Library, Librarian
 
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
-from library import Book, PrintedBook, EBook, User, Library, Librarian
 
 class TestPrintedBook(unittest.TestCase):
     def test_printed_book_creation(self):
