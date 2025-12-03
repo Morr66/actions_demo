@@ -40,6 +40,7 @@ class PrintedBook(Book):
         elif self.__condition == "хорошая":
             self.__condition = "новая"
 
+
 class EBook(Book):
     def __init__(self, title, author, year, file_size, format, available=True):
         super().__init__(title, author, year, available)
@@ -81,6 +82,8 @@ class User:
 
     def get_borrowed_books(self):
         return self.__borrowed_books
+
+
 class Library:
     def __init__(self):
         self.__books = []
@@ -96,6 +99,7 @@ class Library:
             self.__books.remove(bt)
             print(f"Книга {title} удалена из библиотеки")
         print(f"Книга '{title}' не найдена")
+
     def add_user(self, user):
         self.__users.append(user)
         print(f"Пользователь {user.name} зарегистрирован")
@@ -105,9 +109,6 @@ class Library:
             if book.get_title().lower() == title.lower():
                 return book
         return "Книга не найдена"
-
-
-
 
     def find_user(self, name):
         for user in self.__users:
@@ -165,34 +166,3 @@ class Librarian(User):
 
     def register_user(self, library, user):
         library.add_user(user)
-
-
-
-
-# --- создаём библиотеку ---
-lib = Library()
-# --- создаём книги ---
-b1 = PrintedBook("Война и мир", "Толстой", 1869, 1225, "хорошая")
-b2 = EBook("Мастер и Маргарита", "Булгаков", 1966, 5, "epub")
-b3 = PrintedBook("Преступление и наказание", "Достоевский", 1866, 480,
-"плохая")
-# --- создаём пользователей ---
-user1 = User("Анна")
-librarian = Librarian("Мария")
-# --- библиотекарь добавляет книги ---
-librarian.add_book(lib, b1)
-librarian.add_book(lib, b2)
-librarian.add_book(lib, b3)
-# --- библиотекарь регистрирует пользователя ---
-librarian.register_user(lib, user1)
-# --- пользователь берёт книгу ---
-lib.lend_book("Война и мир", "Анна")
-# --- пользователь смотрит свои книги ---
-user1.show_books()
-# --- возвращает книгу ---
-lib.return_book("Война и мир", "Анна")
-# --- электронная книга ---
-b2.download()
-# --- ремонт книги ---
-b3.repair()
-print(b3)
