@@ -48,7 +48,8 @@ class EBook(Book):
         self.__format = format
 
     def download(self):
-        print(f"Книга {self.get_title()}.{self.__format} размером {self.__file_size}МБ загружается...")
+        print(f"Книга {self.get_title()}.{self.__format} разме"
+              f"ром {self.__file_size}МБ загружается...")
 
 
 class User:
@@ -125,7 +126,8 @@ class Library:
             print("В библиотеке пока нет книг")
 
     def show_available_books(self):
-        available_books = [book for book in self.__books if book.is_available()]
+        available_books = [book for book in
+                           self.__books if book.is_available()]
         if available_books:
             print("Доступные книги:")
             for i, book in enumerate(available_books, 1):
