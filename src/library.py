@@ -34,11 +34,12 @@ class PrintedBook(Book):
         self.__pages = pages
         self.__condition = condition
 
-    def repair(self): 
+    def repair(self):
         if self.__condition == "плохая":
             self.__condition = "хорошая"
         elif self.__condition == "хорошая":
             self.__condition = "новая"
+
 
 class EBook(Book):
     def __init__(self, title, author, year, file_size, format, available=True):
@@ -82,6 +83,8 @@ class User:
 
     def get_borrowed_books(self):
         return self.__borrowed_books
+
+
 class Library:
     def __init__(self):
         self.__books = []
@@ -97,6 +100,7 @@ class Library:
             self.__books.remove(bt)
             print(f"Книга {title} удалена из библиотеки")
         print(f"Книга '{title}' не найдена")
+
     def add_user(self, user):
         self.__users.append(user)
         print(f"Пользователь {user.name} зарегистрирован")
@@ -106,9 +110,6 @@ class Library:
             if book.get_title().lower() == title.lower():
                 return book
         return "Книга не найдена"
-
-
-
 
     def find_user(self, name):
         for user in self.__users:
@@ -167,5 +168,3 @@ class Librarian(User):
 
     def register_user(self, library, user):
         library.add_user(user)
-
-
