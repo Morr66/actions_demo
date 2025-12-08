@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2adb563-ee1f-4128-aad3-27ad8cc7c071" name="Changes" comment="все пофиксили" />
+    <list default="true" id="a2adb563-ee1f-4128-aad3-27ad8cc7c071" name="Changes" comment="все пофиксили">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for test_library.TestLibrarian.test_librarian_creation.executor": "Run",
-    "Python tests.Python tests for test_library.TestLibrary.test_add_and_find_book.executor": "Run",
-    "Python tests.Python tests for test_library.TestLibrary.test_add_book.executor": "Run",
-    "Python tests.Python tests for test_library.TestLibrary.test_create_library.executor": "Run",
-    "Python tests.Python tests for test_library.TestLibrary.test_find_book.executor": "Run",
-    "Python tests.Python tests for test_library.TestLibrary.test_remove_book.executor": "Run",
-    "Python tests.Python tests for test_library.TestPrintedBook.test_printed_book_repair.executor": "Run",
-    "Python tests.Python tests in test_library.py.executor": "Run",
-    "Python.library.executor": "Run",
-    "Python.test_library.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/morr66/Documents/Python/actions_demo/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrarian.test_librarian_creation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrary.test_add_and_find_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrary.test_add_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrary.test_create_library.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrary.test_find_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestLibrary.test_remove_book.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_library.TestPrintedBook.test_printed_book_repair.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_library.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.library.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_library.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/morr66/Documents/Python/actions_demo/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -168,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_library.TestLibrary.test_find_book" />
-        <item itemvalue="Python.test_library" />
         <item itemvalue="Python tests.Python tests in test_library.py" />
         <item itemvalue="Python tests.Python tests for test_library.TestPrintedBook.test_printed_book_repair" />
+        <item itemvalue="Python tests.Python tests for test_library.TestLibrary.test_find_book" />
         <item itemvalue="Python tests.Python tests for test_library.TestLibrarian.test_librarian_creation" />
+        <item itemvalue="Python.test_library" />
       </list>
     </recent_temporary>
   </component>
