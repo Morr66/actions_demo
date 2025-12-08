@@ -217,22 +217,13 @@
       <option name="project" value="LOCAL" />
       <updated>1764783851428</updated>
     </task>
-    <task id="LOCAL-00004" summary="все пофиксили">
-      <option name="closed" value="true" />
-      <created>1764793576864</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1764793576864</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="добавили тесты" />
     <MESSAGE value="добавили код теста" />
     <MESSAGE value="созданы разные сценарии workflows" />
-    <MESSAGE value="все пофиксили" />
-    <option name="LAST_COMMIT_MESSAGE" value="все пофиксили" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданы разные сценарии workflows" />
   </component>
 </project>
